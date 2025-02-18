@@ -1,6 +1,3 @@
-/* eslint-disable */
-/* ignore any warnings in this file */
-
 {
     "*.ts": ["pnpm dlx nx affected:lint --fix --files"],
     "*": ["pnpm nx format:write --files"]
