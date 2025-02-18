@@ -6,7 +6,6 @@ export class AppService {
   constructor(private readonly prismaService: PrismaService) {}
 
   getData(): { message: string } {
-    console.log(this.prismaService.user);
     return { message: 'Hello API' };
   }
 }
