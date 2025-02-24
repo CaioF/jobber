@@ -1,2 +1,3 @@
+pnpm dlx prettier -w . --config .prettierrc
 pnpm dlx lint-staged --relative
 pnpm dlx nx test jobber-auth
